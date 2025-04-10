@@ -8,7 +8,7 @@
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
         
         :root {
-            --primary-color: #3498db;
+            --primary-color: #252324;
             --secondary-color: #2ecc71;
             --background-color: #f0f3f5;
             --text-color: #333;
@@ -24,7 +24,7 @@
         }
 
         header {
-            background-color: rgba(52, 152, 219, 0.9);
+            background-color: rgba(37, 35, 36, 0.9);
             color: #ffffff;
             padding: 1rem 0;
             position: fixed;
@@ -32,10 +32,29 @@
             z-index: 1000;
             transition: background-color 0.3s ease;
         }
+        
+	header img {
+            width: 280px;
+            height: 140px;
+            margin-bottom: 1rem;
+        }
 
         header.scrolled {
-            background-color: rgba(52, 152, 219, 1);
+            background-color: rgba(0, 0, 0, 0.9);
         }
+        
+	header h1 {
+            font-size: 3rem;
+            margin-top: 10px;
+            margin-left: 15px;
+	    font-family: "Lucida Handwriting", "Brush Script MT", Cursive;
+	    font-weight: bold;
+	    color: #ea8034;
+        }
+
+	header ul li a {
+	    color: #ea8034;
+	}
 
         .container {
             width: 80%;
@@ -101,6 +120,7 @@
         #showcase h1 {
             font-size: 4rem;
             margin-bottom: 0;
+            margin-top: 150px;
         }
 
         #showcase p {
@@ -149,7 +169,7 @@
         }
 
         .service-box img {
-            width: 80px;
+            width: 160px;
             height: 80px;
             margin-bottom: 1rem;
         }
@@ -208,6 +228,7 @@
 <body>
     <header>
         <nav class="container">
+            <img src="./api/placeholder/80/80/logo.gif" alt="Advita Technologies">
             <h1>Advita Technologies</h1>
             <ul>
                 <li><a href="#home">Home</a></li>
@@ -230,32 +251,32 @@
         <h2>Our Services</h2>
         <div class="services-grid">
             <div class="service-box">
-                <img src="/api/placeholder/80/80" alt="Custom Software">
+                <img src="./api/placeholder/80/80/11.png" alt="Custom Software">
                 <h3>Custom Software Development</h3>
                 <p>Tailored solutions to meet your unique business needs.</p>
             </div>
             <div class="service-box">
-                <img src="/api/placeholder/80/80" alt="Cloud Migration">
+                <img src="./api/placeholder/80/80/22.png" alt="Cloud Migration">
                 <h3>Cloud Migration</h3>
                 <p>Seamlessly transition your infrastructure to the cloud.</p>
             </div>
             <div class="service-box">
-                <img src="/api/placeholder/80/80" alt="VOIP Solutions">
+                <img src="./api/placeholder/80/80/33.png" alt="VOIP Solutions">
                 <h3>VOIP Solutions</h3>
                 <p>Implement cutting-edge Voice over IP communication systems.</p>
             </div>
             <div class="service-box">
-                <img src="/api/placeholder/80/80" alt="VoLTE Integration">
+                <img src="./api/placeholder/80/80/44.png" alt="VoLTE Integration">
                 <h3>VoLTE Integration</h3>
                 <p>Enhance your mobile network with Voice over LTE technology.</p>
             </div>
             <div class="service-box">
-                <img src="/api/placeholder/80/80" alt="IoT Development">
+                <img src="./api/placeholder/80/80/logo.gif" alt="IoT Development">
                 <h3>IoT Development</h3>
                 <p>Create innovative Internet of Things solutions for your business.</p>
             </div>
             <div class="service-box">
-                <img src="/api/placeholder/80/80" alt="Blockchain Solutions">
+                <img src="./api/placeholder/80/80/logo.gif" alt="Blockchain Solutions">
                 <h3>Blockchain Solutions</h3>
                 <p>Leverage blockchain technology for secure and transparent operations.</p>
             </div>
